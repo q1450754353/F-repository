@@ -1,0 +1,35 @@
+header{
+    background-color: black;
+    color: white;
+    padding: 10px 15px;
+}
+.nav-item{
+    margin-top: 5px;
+    text-align: center;
+}
+.box{
+    background-color: darkcyan;
+    width: 80%;
+    height: 250px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 10px;
+}
+@media  screen and (min-width: 600px) {
+    header {
+        display: flex;
+        justify-content: flex-end;
+    }
+    .nav-item{
+        margin-left: 30px;
+    }
+    .container{
+        display: flex;
+    }
+    .box{
+        margin: 6px 10px;
+    }
+}

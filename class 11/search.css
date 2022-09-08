@@ -1,0 +1,66 @@
+header {
+    background-color: black;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.link {
+    color: white;
+    padding: 10px 15px;
+    display: flex;
+
+
+}
+
+.nav-item {
+    margin-top: 5px;
+    text-align: center;
+}
+
+.box {
+    background-color: darkcyan;
+    width: 80%;
+    height: 250px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 10px;
+}
+
+.searchBox {
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.service:hover .drop {
+    display: block;
+    position: relative;
+    background-color: cadetblue;
+}
+
+.drop {
+    display: none;
+}
+
+@media screen and (min-width: 600px) {
+    header {
+        display: flex;
+        /* justify-content: flex-end; */
+    }
+
+    .nav-item {
+        margin-left: 30px;
+    }
+
+    .container {
+        display: flex;
+    }
+
+    .box {
+        margin: 6px 10px;
+    }
+}
